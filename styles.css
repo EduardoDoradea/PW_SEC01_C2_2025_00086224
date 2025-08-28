@@ -1,18 +1,31 @@
-aside {
-    width: 40%;
-}
-
 body {
-    background-color: #99D1E7;
+    background-color: #FFF5E1;
 }
 
 h1 {
+    color: #6F2FDE;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 
 h2 {
+    color: #6322D6;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 90%;
+    font-size: 20px;
+}
+
+p {
+    color: #940AA6;
+    line-height: 1.6;
+    font-size: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    color: #940AA6;
+    line-height: 1.6;
+    font-size: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button {
@@ -22,10 +35,7 @@ button {
     border: 5px solid #AF99E7;
     padding: 10px;
     margin: 10px;
-}
-
-div {
-    display: flex;
+    border-radius: 20%;
 }
 
 .contenedorCabecera {
@@ -33,33 +43,56 @@ div {
     justify-content: center;
 }
 
-.contenedorDatosDescripcion {
-    justify-content: space-evenly;
+.contenedorPrincipal {
+    display: flex;
+    justify-content: center;
 }
 
 .contenedorDatos {
-    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;    
 }
 
 .contenedorDescripcion {
-    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.contenedorSecundario {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorImagen {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
 }
 
 .contenedorContenido {
-    flex-direction: column;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
 }
 
 .contenedorParrafo {
+    display: flex;
     flex-direction: row;
+    margin-top: 20px;
+    width: 60%;
 }
 
 .textoDescripcion {
-    font-size: 80%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 55%;
+    width: 60%;
 }
 
-.texto {
-    font-size: 80%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.textoContenido {
+    width: 80%;
 }
+
+
+
