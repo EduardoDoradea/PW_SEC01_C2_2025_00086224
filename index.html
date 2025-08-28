@@ -8,19 +8,48 @@
 </head>
 
 <body>
-    <header>
-        <h1>HTML & CSS: Curso práctico avanzado</h1>
-    </header>
 
-    <div class="contenedor">
-        <section class="descripcionLibro">
+    <div class="contenedorCabecera">
+        <header>
+            <h1>HTML & CSS: Curso práctico avanzado</h1>
+            <div>
+                <button type="button">Filas una abajo de la otra </button>
+                <button type="button">Boton para cambiar el titulo</button>
+                <button type="button">Cambiar color de descripcion libro y el texto</button>
+                <button type="button">Agregar imagen</button>
+            </div>
+        </header>
+    </div>
+
+    <div class="contenedorDatosDescripcion">
+
+        <aside class="contendorDatos">
+            <h2>Datos del libro</h2>
+            <ul>
+                <li class="texto">Título: HTML & CSS: Curso práctico avanzado</li>
+                <li class="texto">Autor: Sergio Luján Mora.</li>
+                <li class="texto">Editorial: Publicaciones Altaria</li>
+                <li class="texto">Año de publicación: 2015</li>
+                <li class="texto">ISBN: 978-84-944049-4-8.</li>
+            </ul>
+        </aside>
+
+        <section class="contenedorDescripcion">
             <h2>Descripcion del libro</h2>
-            <p class="texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, cumque neque reprehenderit
-                facilis sequi,
-                nobis omnis possimus quam maxime repudiandae numquam aliquid tempora amet sapiente veniam voluptatem sit
-                voluptas placeat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, laudantium.<br>
+            <p class="textoDescripcion">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum
+                has
+                been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                of
+                type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                also
+                the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                1960s
+                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br>
                 <br> Quaerat
-                officia, vitae culpa eum eaque consectetur commodi aliquam totam, ratione ullam ex autem itaque quisquam
+                officia, vitae culpa eum eaque consectetur commodi aliquam totam, ratione ullam ex autem itaque
+                quisquam
                 eius pariatur esse omnis.
                 <br>
                 <br>
@@ -29,44 +58,40 @@
                 praesentium fuga, id minus?
             </p>
         </section>
-        
-        <aside>
-            <h2>Datos del libro</h2>
-            <ul>
-                <li class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-            </ul>
-        </aside>
     </div>
-    
-    <section>
-        <h2>Contenido del libro</h2>
-        <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <section id="">
-            <p class="texto">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. A esse animi, eius culpa cum sapiente? Sequi
-                nesciunt alias rem distinctio explicabo nostrum hic eaque. Velit quibusdam quasi exercitationem eius
-                possimus.
-            </p>
-        </section>
-        <section id="">
-            <p class="texto">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos nobis nisi voluptas placeat labore
-                assumenda aspernatur praesentium. Quia deserunt reiciendis corrupti alias. Doloribus nesciunt libero
-                incidunt quisquam ullam quae veniam!
-            </p>
-        </section>
-        <section id="">
-            <p class="texto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptas sit ea ex architecto explicabo
-                eum! Assumenda molestiae vitae, totam nesciunt soluta hic beatae ipsum eius voluptas in autem quis.
-            </p>
-        </section>
-    </section>
 
+
+    <div class="contendorContenido">
+        <section>
+            <h2>Contenido del libro </h2>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="contenedorParrafo">
+                <section>
+                    <p class="texto contenedorP1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
+                        doloremque
+                        temporibus fugiat ipsam soluta fugit, commodi dolor repellat ab vel consequuntur velit, porro
+                        ullam delectus rem nemo harum? Esse, necessitatibus. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Nihil voluptatum possimus accusamus, porro ad quidem praesentium omnis nulla
+                        provident dolores, itaque cupiditate obcaecati amet quis.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellat voluptas minus
+                        assumenda et nemo, debitis non exercitationem aliquam numquam? Natus earum aut ad, soluta dolor
+                        quae vero sequi ea?
+                        provident!</p>
+                </section>
+
+                <section>
+                    <p class="texto contenedorP2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
+                        doloremque
+                        temporibus fugiat ipsam soluta fugit, commodi dolor repellat ab vel consequuntur velit, porro
+                        ullam delectus rem nemo harum? <br> <br>Esse, necessitatibus. Lorem ipsum dolor sit amet
+                        consectetur
+                        adipisicing elit. Nihil voluptatum possimus accusamus, porro ad quidem praesentium omnis nulla
+                        provident dolores, itaque cupiditate obcaecati amet quis. Praesentium aut inventore possimus
+                        provident!</p>
+                </section>
+            </div>
+        </section>
+    </div>
 </body>
 
 </html>
