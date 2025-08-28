@@ -1,0 +1,13 @@
+header {
+    text-align: center;
+}
+
+aside {
+    left: auto;
+    -ms-flex-align: end;
+}
+
+section {
+    flex-direction: row;
+}
+
